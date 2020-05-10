@@ -43,7 +43,9 @@ const Container = styled.div`
     }
 
   }
-
+  & a {
+    color: ${props => props.theme.colors.black};
+  }
   }
 `;
 
@@ -94,9 +96,16 @@ export const DropDownMenuClick = () => {
             <NoStyleLink to="/services">All Services</NoStyleLink>
             <NoStyleLink to="/websites">Websites</NoStyleLink>
             <NoStyleLink to="/websites/realtor-website">
-              Realtor Websites
+              For Realtors
             </NoStyleLink>
-
+            <NoStyleLink to="/logos/demo">Animated Icons</NoStyleLink>
+            <a
+              href="https://www.theorderguys.com"
+              target="_blank"
+              rel="nofollow"
+            >
+              Food App
+            </a>
             <div className="bottomMargin" />
           </div>
         </OutsideAlerter>
