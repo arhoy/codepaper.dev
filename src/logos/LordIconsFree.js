@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import '@lottiefiles/lottie-player';
 
 import Helmet from 'react-helmet';
 
