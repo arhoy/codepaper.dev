@@ -40,7 +40,7 @@ const Container = styled.div`
 export const Section2 = () => {
   const data = useStaticQuery(graphql`
     query {
-      image1: file(relativePath: { eq: "_about/alex-quasar.jpg" }) {
+      image1: file(relativePath: { eq: "_about/alex-hoy.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid_withWebp

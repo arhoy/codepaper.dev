@@ -27,7 +27,7 @@ const Blurb = styled.div`
 export const Card1 = () => {
   return (
     <Container>
-      <H3>Alex Quasar</H3>
+      <H3>Alex Hoy</H3>
       <Subtitle>Executitve Account Manager</Subtitle>
       <Blurb>
         <p>

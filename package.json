@@ -17,7 +17,6 @@
     "@contentful/rich-text-types": "^13.4.0",
     "@emotion/core": "^10.0.17",
     "@emotion/styled": "^10.0.17",
-    "@lottiefiles/lottie-player": "^0.5.1",
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.0",
     "@nivo/pie": "^0.61.1",
